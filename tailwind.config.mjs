@@ -6,14 +6,9 @@ const Tailwind = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+    extend: {},
+    plugins: [],
   },
-  plugins: [],
 };
 
 export default Tailwind;
